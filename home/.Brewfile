@@ -6,6 +6,8 @@ brew 'carthage'
 brew 'oclint'
 brew 'uncrustify'
 brew 'mas'
+brew 'swiftplate'
+brew 'swiftlint'
 
 cask 'atom'
 cask 'appcode'
