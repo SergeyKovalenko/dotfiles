@@ -30,3 +30,6 @@ alias appcode="open -a AppCode.app"
 
 # Open projects folder
 alias godev='cd ~/Development'
+
+# Open iBooks folder
+alias gobooks='open ~/Library/Mobile\ Documents/iCloud\~com\~apple\~iBooks/Documents'
