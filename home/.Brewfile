@@ -1,4 +1,5 @@
 tap 'oclint/formulae'
+tap 'vapor/homebrew-tap'
 
 brew 'rbenv'
 brew 'mogenerator'
@@ -8,6 +9,7 @@ brew 'uncrustify'
 brew 'mas'
 brew 'swiftplate'
 brew 'swiftlint'
+brew 'vapor'
 
 cask 'atom'
 cask 'appcode'
