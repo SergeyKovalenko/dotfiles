@@ -30,4 +30,3 @@ mas 'Slack', id: 803453959
 mas 'Easy APNs Provider', id: 989622350
 mas 'Enpass password manager', id: 732710998
 mas 'Xcode', id: 497799835
-mas 'Go for Gmail - Email Client', id: 979538493
