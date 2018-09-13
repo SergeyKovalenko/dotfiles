@@ -16,7 +16,7 @@ directory. The `bootstrap` script will prompt you before installing the
 dotfiles. Run the following commands to install:
 
 ```bash
-git clone https://github.com/fuzza/dotfiles.git ~/.dotfiles
+git clone https://github.com/sergeykovalenko/dotfiles.git ~/.dotfiles
 cd ~/.dotfiles
 source bootstrap
 ```

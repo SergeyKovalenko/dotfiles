@@ -16,7 +16,7 @@
   changed = green
   untracked = cyan
 [core]
-	excludesfile = /Users/fuzza/.gitignore_global
+	excludesfile = /Users/sergeykovalenko/.gitignore_global
 [difftool "sourcetree"]
   cmd = opendiff \"$LOCAL\" \"$REMOTE\"
 	path =

@@ -17,9 +17,10 @@ then
 fi
 
 # MacOS version check
-if ! [[ $(sw_vers -productVersion) =~ ^10\.12\..+ ]]
+if ! [[ $(sw_vers -productVersion) =~ ^10\.14.* ]]
 then
-  echo "$PROG script is intended for MacOS versions 10.11.x"
+  VERSION=$(sw_vers -productVersion)
+  echo "$PROG script is intended for MacOS versions 10.14.x got $VERSION}"
   exit 1
 fi
 
@@ -59,10 +60,10 @@ defaults -currentHost write com.apple.screensaver idleTime 600
 # ----------------------------------------------------------------------------
 
 # Set computer name (as done via System Preferences → Sharing)
-sudo scutil --set ComputerName "Fuzza"
-sudo scutil --set HostName "Fuzza"
-sudo scutil --set LocalHostName "Fuzza"
-sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string "Fuzza"
+sudo scutil --set ComputerName "sergeykovalenko"
+sudo scutil --set HostName "sergeykovalenko"
+sudo scutil --set LocalHostName "sergeykovalenko"
+sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string "sergeykovalenko"
 
 # General
 # ----------------------------------------------------------------------------
