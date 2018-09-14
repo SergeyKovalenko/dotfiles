@@ -63,7 +63,7 @@ then
   fi
 
   # Homebrew Cask
-  export HOMEBREW_CASK_OPTS="--appdir=/Applications --caskroom=$(brew --repo)/Caskroom"
+  # export HOMEBREW_CASK_OPTS="--appdir=/Applications --caskroom=$(brew --repo)/Caskroom"
 fi
 
 # Append ~/local/bin to PATH
