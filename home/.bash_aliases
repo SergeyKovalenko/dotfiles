@@ -16,6 +16,11 @@ alias sudo='sudo '
 #   -H: follow symbolic links on the command line
 alias ls='ls -FGH'
 
+# Development
+# Pod install
+alias pi='bundle exec pod install'
+alias pu='bundle exec pod update'
+
 # Network
 # ----------------------------------------------------------------------------
 
